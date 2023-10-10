@@ -1,0 +1,42 @@
+GET http://localhost:3000/details/100
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoicmFodWwiLCJnZW5kZXIiOiJNYWxlIiwibG9jYXRpb24iOiJoeWRlcmFiYWQiLCJpYXQiOjE2MTc0MzI0MDd9.Eqevw5QE70ZAVrmOZUc6pflUbeI0ffZUmQLDHYplU8g
+###
+
+PUT http://localhost:3000/details
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoicmFodWwiLCJnZW5kZXIiOiJNYWxlIiwibG9jYXRpb24iOiJoeWRlcmFiYWQiLCJpYXQiOjE2MTc0MzI0MDd9.Eqevw5QE70ZAVrmOZUc6pflUbeI0ffZUmQLDHYplU8g
+Content-Type: application/json
+
+{
+    "userId":"100",
+    "userName":"Ram",
+    "userGmail":"ram@123@gmail.com",
+    "userPassword":"12345",
+    "userImage":"https:jhadjfskkljewrlkjaf",
+    "totalOrders":"20",
+    "createdAt":"12-20-19",
+    "isLoggedIn":"12-20-19"
+}
+###
+
+GET http://localhost:3000/image/102
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoicmFodWwiLCJnZW5kZXIiOiJNYWxlIiwibG9jYXRpb24iOiJoeWRlcmFiYWQiLCJpYXQiOjE2MTc0MzI0MDd9.Eqevw5QE70ZAVrmOZUc6pflUbeI0ffZUmQLDHYplU8g
+###
+
+POST http://localhost:3000/insert
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoicmFodWwiLCJnZW5kZXIiOiJNYWxlIiwibG9jYXRpb24iOiJoeWRlcmFiYWQiLCJpYXQiOjE2MTc0MzI0MDd9.Eqevw5QE70ZAVrmOZUc6pflUbeI0ffZUmQLDHYplU8g
+Content-Type: application/json
+
+{
+    "userName":"Ram",
+    "userGmail":"ram@123@gmail.com",
+    "userPassword":"12345",
+    "userImage":"https:jhadjfskkljewrlkjaf",
+    "totalOrders":"20",
+    "createdAt":"12-20-19",
+    "isLoggedIn":"12-20-19"
+}
+
+###
+DELETE http://localhost:3000/delete/102
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoicmFodWwiLCJnZW5kZXIiOiJNYWxlIiwibG9jYXRpb24iOiJoeWRlcmFiYWQiLCJpYXQiOjE2MTc0MzI0MDd9.Eqevw5QE70ZAVrmOZUc6pflUbeI0ffZUmQLDHYplU8g
+###
